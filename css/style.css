@@ -21,22 +21,28 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /*BODY*/
 body{
-
+	display: flex;
 }
+
 
 /*TOPO*/
 header{
+	display: flex;
+	flex-direction: row;
 	
 }
 
 /*RODAPÉ*/
 footer{
+	position
 
 }
 
 /*PÁGINA INICIAL*/
 main{
 	
+	
+
 }
 	main .profile-content{
 
