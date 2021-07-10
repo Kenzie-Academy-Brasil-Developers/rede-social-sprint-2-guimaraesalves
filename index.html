@@ -9,6 +9,7 @@
 	<title>Instagram</title>
 
 	<!-- CSS -->
+	<link rel="stylesheet" href="/reset.css">
 	<link rel="stylesheet" href="css/style.css" />
 
 	<!-- FAVICON -->
@@ -20,7 +21,7 @@
 	<header>
 		<a href="https://www.instagram.com/" class="instagram-logo">
 			<figure>
-				<img src="img/logo.png" alt="Instagram logo">
+				<img  class="logo" src="img/logo-kenziegram.png" alt="Instagram logo">
 			</figure>
 		</a>
 	</header>
@@ -34,7 +35,7 @@
 			<!-- FOTO DE PERFIL DO USUÁRIO -->
 			<section class="profile-photo">
 				<figure>
-					<img src="img/profile-photo.jpg" alt="Profile photo">
+					<img src="img/logoKenzieredonda.png" alt="Profile photo">
 				</figure>
 			</section>
 
@@ -42,17 +43,12 @@
 			<section class="profile-info">
 				<h1>kenzieacademybr</h1>
 
-				<!-- POSTS/SEGUIDORES/SEGUINDO -->
-				<div class="profile-data">
-					<p><span>122</span> posts</p>
-					<p><span>2,589</span> followers</p>
-					<p><span>227</span> following</p>
-				</div>
+				<!-- POSTS/SEGUIDORES/SEGUINDO -->		
 
 				<h2> Kenzie Academy Brasil </h2>
-				<ul>
+				<ul  class="profile-info-contact">
 					<li>
-						<p>Nós investimos em você. Aprenda programação sem mensalidade até conseguir uma remuneração de pelo menos R$3.000 por mês.</p>
+						<p>Nós investimos em você! Aprenda programação sem mensalidade até conseguir uma remuneração de pelo menos R$3.000 por mês.</p>
 					</li>
 					<li>
 						<p>Inscreva-se através do link.</p>
@@ -61,12 +57,17 @@
 						<a href="https://linktr.ee/kenzieacademybr">linktr.ee/kenzieacademybr</a>
 					</li>
 				</ul>
+				<div class="profile-data">
+					<p><span>122</span> posts</p>
+					<p><span>2,589</span> followers</p>
+					<p><span>227</span> following</p>
+				</div>
 			</section>
 		</article>
 
 		<!-- DESTAQUES DO USUÁRIO -->
 		<article class="highlighted-stories">
-			<ul>
+			<ul class="user-destak">
 				<li class="add-new-highlight">
 					<figure>
 						<img src="img/plus-sign.png" alt="Highlight">
@@ -86,14 +87,14 @@
 		<article class="profile-posts">
 
 			<!-- MENU DE POSTS -->
-			<nav>
-				<a href="#">Posts</a>
-				<a href="#">Igtv</a>
-				<a href="#">Tagged</a>
+			<nav class="menu">
+				<a class="leg1" href="#">Posts</a>
+				<a class="leg2" href="#">Igtv</a>
+				<a class="leg3" href="#">Tagged</a>
 			</nav>
 
 			<!-- LISTA DE POSTS -->
-			<ul>
+			<ul class="posts">
 
 				<!-- POST -->
 				<li>
@@ -154,26 +155,29 @@
 
 	<!-- RODAPÉ -->
 	<footer>
+		<div class="rodape">
 
-		<!-- MENU RODAPÉ -->
-		<nav class="footer-nav">
-			<a href="#">About</a>
-			<a href="#">Help</a>
-			<a href="#">Press</a>
-			<a href="#">Api</a>
-			<a href="#">Jobs</a>
-			<a href="#">Privacy</a>
-			<a href="#">Terms</a>
-			<a href="#">Locations</a>
-			<a href="#">Top accounts</a>
-			<a href="#">Hashtags</a>
-			<a href="#">Language</a>
-		</nav>
+			<!-- MENU RODAPÉ -->
+			<nav class="footer-nav">
+				<a href="#">About</a>
+				<a href="#">Help</a>
+				<a href="#">Press</a>
+				<a href="#">Api</a>
+				<a href="#">Jobs</a>
+				<a href="#">Privacy</a>
+				<a href="#">Terms</a>
+				<a href="#">Locations</a>
+				<a href="#">Top accounts</a>
+				<a href="#">Hashtags</a>
+				<a href="#">Language</a>
+			</nav>
 
-		<!-- COPYRIGHT -->
-		<div class="copyright">
-			<p>&copy; 2020 instagram from facebook</p>
-		</div>
+			<!-- COPYRIGHT -->
+			<div class="copyright">
+				<p>&copy; 2020 instagram from facebook</p>
+			</div>
+
+	</div>	
 
 	</footer>
 </body>
