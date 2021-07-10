@@ -13,7 +13,9 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 **** RODAPÉ
 **** PÁGINA INICIAL
 */
-
+li {
+	list-style-type: none;
+  }
 a {
 	text-decoration: none;	
 }
